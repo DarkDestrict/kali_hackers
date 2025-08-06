@@ -10,4 +10,4 @@ git -v
 
 echo "Updating git bash"
 
-git update
+git update-ref
