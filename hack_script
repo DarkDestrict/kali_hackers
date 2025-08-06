@@ -1,1 +1,13 @@
 what is the name of the kali_hackers or what will we be doing!!!
+
+echo "Updating the system"
+
+apt-get update
+
+echo "Checking git bash version"
+
+git -v
+
+echo "Updating git bash"
+
+git update
