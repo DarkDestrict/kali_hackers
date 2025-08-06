@@ -1,0 +1,13 @@
+---
+- name: automation creaton in the system
+  hosts: localhost
+  become: true
+  remote_user: root
+
+  tasks
+  - name: name of the user
+    user:
+      name: zombie
+      state: present
+      comment: "Ansible user for automation"
+      shell: /bin/bash
