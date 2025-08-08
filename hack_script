@@ -9,3 +9,7 @@ echo
 echo "Testing scripting functions like read!!!"
 read -p "What is your name: "
 echo $1
+echo
+echo "The will be new deployment happening on the system soon and working on the script"
+name="mpho"
+echo "Who is $name!!!"
